@@ -100,6 +100,7 @@ footer{
     margin: 16px;
     margin-bottom: 0;
     margin-top: 104px;
+    background-color: #78F7E8;
 }
 
 .modernism-rotate{
@@ -114,5 +115,9 @@ footer{
 }
 
 .h2-style-2-only{
-        display: none;
+    display: none;
+}
+
+.no-display{
+    display: none;
 }
