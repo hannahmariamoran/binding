@@ -11,7 +11,6 @@ body{
 header{
     background-color: #161616;
     padding: 16px;
-    margin-bottom: 64px;
 }
 
 section{
@@ -92,4 +91,9 @@ footer{
     display: flex;
     justify-content: space-between;
     margin-top: 104px;
+}
+
+.style-2-left-margin{
+    margin-left: 36px;
+    margin-top: 64px;
 }
