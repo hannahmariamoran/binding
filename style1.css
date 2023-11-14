@@ -1,1 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700&display=swap');
+
+html{
+    color: #161616;
+    background-color: F6F6F6;
+    font-family: Nunito Sans;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+h2{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px; 
+}
+
+h3{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+h4{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+blockquote{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; 
+}
