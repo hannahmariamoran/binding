@@ -99,6 +99,7 @@ footer{
     justify-content: space-between;
     margin: 16px;
     margin-bottom: 0;
+    margin-top: 104px;
 }
 
 .modernism-rotate{
@@ -106,4 +107,12 @@ footer{
     margin-left: 310px;
     margin-top: 300px;
     margin-bottom: 64px;
+}
+
+.title-style-2{
+    display: none;
+}
+
+.h2-style-2-only{
+        display: none;
 }

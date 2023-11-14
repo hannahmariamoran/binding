@@ -47,3 +47,19 @@ p{
     font-weight: 400;
     line-height: 24px; 
 }
+
+.title-style-2{
+    display: none;
+}
+
+.h2-style-2-only{
+    display: none;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 16px;
+    margin-bottom: 0;
+    margin-top: 104px;
+}
