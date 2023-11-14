@@ -1,45 +1,90 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700&display=swap');
 
-html{
+body{
     color: #161616;
-    background-color: F6F6F6;
+    background-color: #F6F6F6;
     font-family: Nunito Sans;
+    margin: 0;
+}
+
+header{
+    border: #161616;
+    border-width: 1px;
+    border-style: solid;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    margin: 0;
+    padding-top: 180px;
+    padding-bottom: 64px;
+}
+
+article{
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 104px;
 }
 
 h1{
     font-size: 48px;
     font-weight: 700;
     line-height: 60px;
+    margin: 0;
+    margin-left: 16px;
+    margin-right: 16px;
 }
 
 h2{
     font-size: 32px;
     font-weight: 700;
     line-height: 48px; 
+    border: #161616;
+    border-width: 1px;
+    border-style: solid;
+    border-top: 0.5px;
+    border-left: 0;
+    border-right: 0;
+    margin: 0;
+    padding: 16px;
 }
 
 h3{
     font-size: 24px;
     font-weight: 400;
     line-height: 36px;
+    margin-top: 48px;
+    margin-bottom: 48px;
 }
 
 h4{
     font-size: 24px;
     font-weight: 400;
     line-height: 36px;
+    margin-top: 104px;
+    margin-left: 16px;
+    margin-right: 16px;
 }
 
 h5{
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
+    border-width: 1px;
+    border-style: solid;
+    border-top: 0.5px;
+    border-left: 0;
+    border-right: 0;
+    margin: 0;
+    padding: 16px;
 }
 
 blockquote{
     font-size: 20px;
     font-weight: 600;
     line-height: 30px;
+    margin-left: 0;
+    margin-top: 64px;
+    margin-bottom: 64px;
 }
 
 p{
@@ -59,9 +104,16 @@ p{
 footer{
     display: flex;
     justify-content: space-between;
-    margin: 16px;
     margin-bottom: 0;
     margin-top: 104px;
+    border-width: 1px;
+    border-style: solid;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    margin: 0;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .no-display{
