@@ -119,3 +119,7 @@ footer{
 .no-display{
     display: none;
 }
+
+b{
+    font-weight: 700;
+}
