@@ -3,6 +3,26 @@
 /* colour variables */
 :root {
     --color-1:#1D1D1D;
-    --color-2: #F9F9F9;
-    --color-3: #78F7E8;
+    --color-2:#F9F9F9;
+    --color-3:#78F7E8;
+}
+
+/* text variables */
+:root {
+    --h1: 40px;
+    --h1-line-height: 46px;
+    --h2: 32px;
+    --h2-line-height: 40px;
+    --h3: 28px;
+    --h3-line-height: 36px;
+    --h4: 24px;
+    --h4-line-height: 32px;
+    --h5: 20px;
+    --h5-line-height: 30px;
+    --h6: 20px;
+    --h6-line-height: 30px;
+    --blockquote: 18px;
+    --blockquote-line-height: 26px;
+    --p: 18px;
+    --p-line-height: 26px;
 }
