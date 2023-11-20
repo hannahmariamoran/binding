@@ -105,6 +105,7 @@ a{
 
 body{
     margin: 20px;
+    background-color: var(--white);
 }
 
 nav{
@@ -113,6 +114,24 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
+
+main{
+    display: grid;
+}
+
+.button{
+    border-radius: 10px;
+    border: 1px solid;
+    color: var(--black);
+    background-color: var(--white);
+    padding: 16px;
+}
+
+.button:hover{
+    background-color: var(--accent);
+}
+
+
 
 /* tablet text media query */
 @media (min-width: 720px) {
