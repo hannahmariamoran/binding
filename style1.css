@@ -2,9 +2,9 @@
 
 /* colour variables */
 :root {
-    --black:#1D1D1D;
-    --white:#F9F9F9;
-    --accent:#78F7E8;
+    --colour-1:#1D1D1D;
+    --colour-2:#F9F9F9;
+    --colour-3:#78F7E8;
 }
 
 /* text variables */
@@ -32,15 +32,16 @@
 /* text styling */
 h1{
     font-family: Space Mono;
-    color: var(--black);
+    color: var(--colour-1);
     font-weight: 700;
     font-size: var(--h1);
     line-height: var(--h1-line-height);
+    margin: 0px;
 }
 
 h2{
     font-family: Space Mono;
-    color: var(--black);
+    color: var(--colour-2);
     font-weight: 400;
     font-size: var(--h2);
     line-height: var(--h2-line-height);
@@ -48,7 +49,7 @@ h2{
 
 h3{
     font-family: Space Grotesk;
-    color: var(--black);
+    color: var(--colour-1);
     font-weight: 700;
     font-size: var(--h3);
     line-height: var(--h3-line-height);
@@ -56,7 +57,7 @@ h3{
 
 h4{
     font-family: Space Grotesk;
-    color: var(--black);
+    color: var(--colour-1);
     font-weight: 500;
     font-size: var(--h4);
     line-height: var(--h4-line-height);
@@ -64,15 +65,19 @@ h4{
 
 h5{
     font-family: Space Grotesk;
-    color: var(--black);
-    font-weight: 500;
+    color: var(--colour-1);
+    font-weight: 400;
     font-size: var(--h5);
     line-height: var(--h5-line-height);
+    background-color: var(--colour-3);
+    padding: 16px;
+    border-radius: 10px;
+    max-width: 100vw;
 }
 
 h6{
     font-family: Space Mono;
-    color: var(--black);
+    color: var(--colour-1);
     font-weight: 400;
     font-size: var(--h6);
     line-height: var(--h6-line-height);
@@ -80,7 +85,7 @@ h6{
 
 blockquote{
     font-family: Space Mono;
-    color: var(--black);
+    color: var(--colour-1);
     font-weight: 400;
     font-size: var(--blockquote);
     line-height: var(--blockquote-line-height);
@@ -88,23 +93,35 @@ blockquote{
 
 p{
     font-family: Space Grotesk;
-    color: var(--black);
-    font-weight: 400;
+    color: var(--colour-2);
+    font-weight: 300;
     font-size: var(--p);
     line-height: var(--p-line-height);
 }
 
 a{
     font-family: Space Mono;
-    color: var(--black);
+    color: var(--colour-1);
     font-weight: 400;
     font-size: var(--a);
     line-height: var(--a-line-height);
     text-decoration: none;
 }
 
+.white-text{
+    color: var(--colour-2);
+}
+
+.right-allign{
+    text-align: right;
+}
+
+html{
+    margin: none;
+}
+
 body{
-    margin: 20px;
+    /* margin: 20px; */
     background-color: var(--white);
 }
 
@@ -119,6 +136,12 @@ main{
     display: grid;
 }
 
+article{
+    background-color: var(--colour-1);
+    border-radius: 20px 20px 0px 0px;
+
+}
+
 /* button styling */
 .button{
     border-radius: 10px;
@@ -126,9 +149,16 @@ main{
     color: var(--black);
     background-color: var(--white);
     padding: 12px;
+    text-align: center;
 }
 .button:hover{
     background-color: var(--accent);
+}
+.button-styling{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100vw;
 }
 
 /* footer styling */
