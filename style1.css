@@ -32,6 +32,7 @@
 /* text styling */
 h1{
     font-family: Space Mono;
+    color: var(--color-1);
     font-weight: 700;
     font-size: var(--h1);
     line-height: var(--h1-line-height);
@@ -39,6 +40,7 @@ h1{
 
 h2{
     font-family: Space Mono;
+    color: var(--color-1);
     font-weight: 400;
     font-size: var(--h2);
     line-height: var(--h2-line-height);
@@ -46,6 +48,7 @@ h2{
 
 h3{
     font-family: Space Grotesk;
+    color: var(--color-1);
     font-weight: 700;
     font-size: var(--h3);
     line-height: var(--h3-line-height);
@@ -53,6 +56,7 @@ h3{
 
 h4{
     font-family: Space Grotesk;
+    color: var(--color-1);
     font-weight: 500;
     font-size: var(--h4);
     line-height: var(--h4-line-height);
@@ -60,6 +64,7 @@ h4{
 
 h5{
     font-family: Space Grotesk;
+    color: var(--color-1);
     font-weight: 500;
     font-size: var(--h5);
     line-height: var(--h5-line-height);
@@ -67,6 +72,7 @@ h5{
 
 h6{
     font-family: Space Mono;
+    color: var(--color-1);
     font-weight: 400;
     font-size: var(--h6);
     line-height: var(--h6-line-height);
@@ -74,6 +80,7 @@ h6{
 
 blockquote{
     font-family: Space Mono;
+    color: var(--color-1);
     font-weight: 400;
     font-size: var(--blockquote);
     line-height: var(--blockquote-line-height);
@@ -81,6 +88,7 @@ blockquote{
 
 p{
     font-family: Space Grotesk;
+    color: var(--color-1);
     font-weight: 400;
     font-size: var(--p);
     line-height: var(--p-line-height);
@@ -88,6 +96,7 @@ p{
 
 a{
     font-family: Space Mono;
+    color: var(--color-1);
     font-weight: 400;
     font-size: var(--a);
     line-height: var(--a-line-height);
