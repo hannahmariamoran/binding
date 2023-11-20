@@ -130,7 +130,7 @@ nav{
     align-items: center;
 }
 
-/* button styling */
+/* menu button styling */
 .button{
     border-radius: 10px;
     border: 1px solid;
@@ -149,6 +149,7 @@ nav{
     width: 100vw;
 }
 
+/* back to top button styling */
 .top-button{
     position: fixed;
     bottom: 20px;
@@ -169,7 +170,7 @@ footer{
     align-items: center;
 }
 
-/* tablet text media query */
+/* tablet media query */
 @media (min-width: 720px) {
     /* text sizes */
     :root {
@@ -194,7 +195,7 @@ footer{
 	}
 }
 
-/* desktop text media query */
+/* desktop media query */
 @media (min-width: 1280px) {
     /* text sizes */
     :root {
