@@ -103,6 +103,17 @@ a{
     text-decoration: none;
 }
 
+body{
+    margin: 20px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 /* tablet text media query */
 @media (min-width: 720px) {
     /* text sizes */
@@ -126,6 +137,9 @@ a{
         --a: 24px;
         --a-line-height: 32px;
 	}
+    body{
+        margin: 32px;
+    }
 }
 
 /* desktop text media query */
@@ -151,4 +165,7 @@ a{
         --a: 24px;
         --a-line-height: 32px;
 	}
+    body{
+        margin: 40px;
+    }
 }
