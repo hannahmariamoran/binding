@@ -120,8 +120,6 @@ body{
 }
 main{
     display: grid;
-}
-article{
     background-color: var(--colour-1);
     border-radius: 20px 20px 0px 0px;
     width: 100vw;
