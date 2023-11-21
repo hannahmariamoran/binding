@@ -154,6 +154,29 @@ nav{
     justify-content: space-between;
     align-items: center;
     width: 100vw;
+    border-bottom: 1px solid;
+    color: var(--black);
+    background-color: var(--colour-2);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    float: left;
+    padding-left: 8px;
+} 
+.nav-text{
+    font-size: 18px;
+}
+.nav-text:hover{
+    font-weight: 700;
+}
+.nav-hide{
+    display: none;
 }
 
 /* menu button styling */
@@ -263,6 +286,13 @@ footer{
         margin-top: 40px;
         gap: 16px;
     }
+    /* Nav Styling */
+    .nav-text{
+        font-size: 20px;
+    }
+    li{
+        padding-left: 16px;
+    }
 }
 
 /* desktop media query */
@@ -333,6 +363,12 @@ footer{
         flex-direction: column;
         margin-top: 40px;
         gap: 16px;
-
+    }
+    /* Nav Styling */
+    .nav-text{
+        font-size: 20px;
+    }
+    li{
+        padding-left: 16px;
     }
 }
