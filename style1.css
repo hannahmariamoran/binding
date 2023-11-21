@@ -201,7 +201,7 @@ footer{
 }
 
 /* tablet media query */
-@media (min-width: 720px) {
+@media (min-width: 640px) {
     /* text sizes */
     :root {
         --h1: 80px;
@@ -212,16 +212,16 @@ footer{
         --h3-line-height: 36px;
         --h4: 32px;
         --h4-line-height: 36px;
-        --h5: 24px;
-        --h5-line-height: 32px;
-        --h6: 24px;
-        --h6-line-height: 32px;
+        --h5: 20px;
+        --h5-line-height: 28px;
+        --h6: 20px;
+        --h6-line-height: 28px;
         --blockquote: 20px;
         --blockquote-line-height: 30px;
         --p: 20px;
         --p-line-height: 28px;
-        --a: 24px;
-        --a-line-height: 32px;
+        --a: 20px;
+        --a-line-height: 28px;
 	}
     h2{
         margin-bottom: 48px;
@@ -256,14 +256,13 @@ footer{
     /* button styling */
     .button{
         padding: 12px;
-        width: 350px;
+        width: 50vw;
     }
     .button-styling{
-        display: flex;
         flex-direction: column;
-        gap: 20px;
-        width: 100vw;
         margin-top: 40px;
+        gap: 16px;
+
     }
 }
 
