@@ -164,6 +164,7 @@ nav{
     background-color: var(--white);
     padding: 12px;
     text-align: center;
+    width: 100vw;
 }
 .button:hover{
     background-color: var(--accent);
