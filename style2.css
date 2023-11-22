@@ -40,7 +40,9 @@ h1{
     font-weight: 700;
     font-size: var(--h1);
     line-height: var(--h1-line-height);
-    margin: 0px;
+    margin-top: 140px;
+    margin-left: 20px;
+    text-align: center;
 }
 h2{
     font-family: Space Mono;
