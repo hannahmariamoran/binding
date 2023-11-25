@@ -4,6 +4,10 @@ html{
     scroll-behavior: smooth;
 }
 
+body{
+    margin: 0px;
+}
+
 /* colour variables */
 :root {
     --colour-1:#1D1D1D;
@@ -29,7 +33,7 @@ html{
     --p: 18px;
     --p-line-height: 26px;
     --a: 18px;
-    --a-line-height: 20px;
+    --a-line-height: 18px;
 }
 
 /* text styling */
@@ -104,7 +108,47 @@ a{
 .right-allign{
     text-align: right;
 }
-
+/* nav styling */
+nav{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid;
+    color: var(--colour-1);
+    background-color: var(--colour-2);
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    float: left;
+    padding-left: 8px;
+}
+a:hover{
+    font-weight: 700;
+}
+/* footer styling */
+footer{
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 1px solid;
+    color: var(--colour-1);
+    background-color: var(--colour-2);
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
 /* back to top button styling */
 .top-button{
     position: fixed;
@@ -125,7 +169,6 @@ a{
 }
 
 .select-readings{
-    display: flex;
     gap: 20px;
 }
 
