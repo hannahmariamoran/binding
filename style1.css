@@ -207,6 +207,8 @@ footer{
 }
 .select-readings{
     gap: 20px;
+    display: flex;
+    align-items: baseline;
 }
 
 /* tablet media query */
