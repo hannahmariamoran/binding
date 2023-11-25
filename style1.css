@@ -12,6 +12,9 @@ body{
 :root {
     --colour-1:#1D1D1D;
     --colour-2:#FAFAFA;
+    --text-1: #E3EB85;
+    --text-2: #6AB6F1;
+    --text-3: #FFA6C5;
 }
 
 /* text variables */
@@ -165,7 +168,19 @@ footer{
 .line-1 {
     width: 73px;
     height: 14px;
-    background-color: var(--colour-1);
+    background-color: var(--text-1);
+}
+
+.line-2 {
+    width: 73px;
+    height: 14px;
+    background-color: var(--text-2);
+}
+
+.line-3 {
+    width: 73px;
+    height: 14px;
+    background-color: var(--text-3);
 }
 
 .select-readings{
