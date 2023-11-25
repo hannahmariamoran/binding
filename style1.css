@@ -48,7 +48,7 @@ main{
     --blockquote-line-height: 26px;
     --p: 18px;
     --p-line-height: 26px;
-    --a: px;
+    --a: 18px;
     --a-line-height: 18px;
 }
 
@@ -61,6 +61,8 @@ h1{
     line-height: var(--h1-line-height);
     text-align: center;
     margin: 0px;
+    margin-top: 88px;
+    margin-bottom: 156px;
 }
 h2{
     font-family: Space Mono;
@@ -85,6 +87,7 @@ h4{
     font-size: var(--h4);
     line-height: var(--h4-line-height);
     margin: 0px;
+    margin-bottom: 72px;
 }
 h5{
     font-family: Space Mono;
@@ -93,6 +96,7 @@ h5{
     font-size: var(--h5);
     line-height: var(--h5-line-height);
     margin: 0px;
+    margin-top: 140px;
 
 }
 h6{
@@ -128,11 +132,14 @@ a{
     text-decoration: none;
     margin: 0px;
 }
-.white-text{
-    color: var(--colour-1);
-}
 .right-allign{
     text-align: right;
+}
+.white-text{
+    color: var(--colour-2);
+}
+.black-text{
+    color: var(--colour-1);
 }
 /* nav styling */
 nav{
@@ -202,6 +209,7 @@ footer{
     justify-content: space-between;
     gap: 12px;
     align-items: center;
+    margin-bottom: 72px;
 }
 .button:hover{
     background-color: var(--colour-2);
