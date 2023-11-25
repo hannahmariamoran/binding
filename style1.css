@@ -51,7 +51,7 @@ h2{
 h3{
     font-family: Space Grotesk;
     color: var(--colour-1);
-    font-weight: 700;
+    font-weight: 500;
     font-size: var(--h3);
     line-height: var(--h3-line-height);
 }
@@ -63,14 +63,14 @@ h4{
     line-height: var(--h4-line-height);
 }
 h5{
-    font-family: Space Grotesk;
+    font-family: Space Mono;
     color: var(--colour-1);
     font-weight: 400;
     font-size: var(--h5);
     line-height: var(--h5-line-height);
 }
 h6{
-    font-family: Space Mono;
+    font-family: Space Grotesk;
     color: var(--colour-1);
     font-weight: 400;
     font-size: var(--h6);
