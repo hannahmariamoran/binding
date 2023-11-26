@@ -220,7 +220,7 @@ footer{
     align-items: center;
 }
 .button:hover{
-    background-color: var(--colour-2);
+    background-color: var(--text-3);
     color: var(--colour-1);
 }
 
