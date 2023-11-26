@@ -363,7 +363,7 @@ footer{
 }
 
 /* desktop media query */
-@media (min-width: 1280px) {
+@media (min-width: 1220px) {
 
     /* text sizes */
     :root{
