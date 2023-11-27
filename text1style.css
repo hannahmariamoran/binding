@@ -7,7 +7,7 @@ html{
 /* layout styling */
 body{
     margin: 0px;
-    background-color: var(--text-3);
+    background-color: var(--text-1);
 }
 header{
     margin: 20px;
@@ -116,7 +116,7 @@ h6{
 }
 blockquote{
     font-family: Space Mono;
-    color: var(--text-3);
+    color: var(--text-1);
     font-weight: 700;
     font-size: var(--blockquote);
     line-height: var(--blockquote-line-height);
@@ -221,7 +221,7 @@ footer{
     margin-top: 72px;
 }
 .button:hover{
-    background-color: var(--text-3);
+    background-color: var(--text-1);
     color: var(--colour-1);
 }
 
@@ -229,7 +229,7 @@ footer{
 .line-3 {
     width: 73px;
     height: 14px;
-    background-color: var(--text-3);
+    background-color: var(--text-1);
 }
 .select-readings{
     gap: 20px;
