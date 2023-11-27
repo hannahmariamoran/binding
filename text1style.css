@@ -7,10 +7,11 @@ html{
 /* layout styling */
 body{
     margin: 0px;
-    background-color: var(--text-1);
+    background-color: var(--colour-2);
 }
 header{
     margin: 20px;
+    background-color: var(--text-1);
 }
 article{
     margin: 20px;
