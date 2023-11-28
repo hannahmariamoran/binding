@@ -309,7 +309,7 @@ footer{
     }
     h2{
         margin: 0px;
-        margin-bottom: 64px;
+        margin-bottom: 80px;
     }
     h3{
         margin: 0px;
@@ -355,7 +355,7 @@ footer{
     gap: 20px;
     display: flex;
     align-items: baseline;
-    margin-top: 64px;
+    margin-top: 120px;
     margin-bottom: 52px;
     margin-left: 5vw;
     }
@@ -377,6 +377,13 @@ footer{
         display: none;
     }
 
+    /* Quote styling */
+    .quote-styling{
+        display: flex;
+        gap: 2px;
+        margin-bottom: 64px;
+        margin-top: 64px;
+    }
 }
 
 /* desktop media query */
@@ -473,16 +480,20 @@ footer{
         margin-left: 30vw;
     }
 
-     /* Subheading styling */
-     .subheading-styling{
-        margin-top: 64px;
+    
+    /* Subheading styling */
+    .subheading-styling{
+        gap: 20px;
+        display: flex;
+        align-items: baseline;
+        margin-top: 120px;
         margin-bottom: 52px;
         margin-left: 30vw;
     }
 
     /* footer styling */
     footer{
-        margin-top: 160px;
+        margin-top: 300px;
         padding-top: 16px;
         padding-bottom: 16px;
     }
