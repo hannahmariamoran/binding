@@ -82,12 +82,11 @@ h2{
 }
 h3{
     font-family: Space Grotesk;
-    color: var(--colour-1);
+    color: var(--colour-2);
     font-weight: 500;
     font-size: var(--h3);
     line-height: var(--h3-line-height);
     margin: 0px;
-    margin-bottom: 40px;
 }
 h4{
     font-family: Space Grotesk;
@@ -238,6 +237,14 @@ footer{
     margin-top: 48px;
     margin-bottom: 32px;
 }
+/* Subheading styling */
+.subheading-styling{
+    gap: 20px;
+    display: flex;
+    align-items: baseline;
+    margin-top: 64px;
+    margin-bottom: 48px;
+}
 
 /* Quote styling */
 .quote-styling{
@@ -258,12 +265,12 @@ footer{
     :root{
         --h1: 80px;
         --h1-line-height: 92px;
-        --h2: 48px;
+        --h2: 46px;
         --h2-line-height: 52px;
         --h3: 32px;
         --h3-line-height: 38px;
-        --h4: 24px;
-        --h4-line-height: 32px;
+        --h4: 20px;
+        --h4-line-height: 26px;
         --h5: 20px;
         --h5-line-height: 26px;
         --h6: 20px;
@@ -282,7 +289,7 @@ footer{
     }
     article{
         margin: 32px;
-        margin-bottom: 120px;
+        margin-bottom: 140px;
     }
     main{
         padding-top: 40px;
@@ -302,12 +309,10 @@ footer{
     }
     h2{
         margin: 0px;
-        margin-bottom: 40px;
+        margin-bottom: 64px;
     }
     h3{
         margin: 0px;
-        margin-bottom: 52px;
-        margin-left: 5vw;
     }
     h4{
         max-width: 50vw;
@@ -345,6 +350,16 @@ footer{
         margin-bottom: 48px;
     }
 
+    /* Subheading styling */
+    .subheading-styling{
+    gap: 20px;
+    display: flex;
+    align-items: baseline;
+    margin-top: 64px;
+    margin-bottom: 52px;
+    margin-left: 5vw;
+    }
+
    /* footer styling */
    footer{
         margin-top: 160px;
@@ -365,7 +380,7 @@ footer{
 }
 
 /* desktop media query */
-@media (min-width: 1220px) {
+@media (min-width: 1200px) {
 
     /* text sizes */
     :root{
@@ -402,6 +417,9 @@ footer{
     }
 
     /* button styling */
+    .button{
+        width: 350px;
+    }
     .button-styling{
         margin-left: 60vw;
     }
@@ -419,8 +437,6 @@ footer{
     }
     h3{
         margin: 0px;
-        margin-bottom: 52px;
-        margin-left: 30vw;
     }
     h4{
         max-width: 40vw;
@@ -457,8 +473,15 @@ footer{
         margin-left: 30vw;
     }
 
-   /* footer styling */
-   footer{
+     /* Subheading styling */
+     .subheading-styling{
+        margin-top: 64px;
+        margin-bottom: 52px;
+        margin-left: 30vw;
+    }
+
+    /* footer styling */
+    footer{
         margin-top: 160px;
         padding-top: 16px;
         padding-bottom: 16px;
