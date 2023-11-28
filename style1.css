@@ -106,6 +106,9 @@ h5{
     line-height: var(--h5-line-height);
     margin: 0px;
 }
+h5:hover{
+    font-weight: 700;
+}
 h6{
     font-family: Space Grotesk;
     color: var(--colour-2);
@@ -240,12 +243,25 @@ footer{
     height: 14px;
     background-color: var(--text-3);
 }
+.line-1:hover{
+    background-color: #B0B947;
+}
+.line-2:hover{
+    background-color: #1E7EC8;
+}
+.line-3:hover{
+    background-color: #D9487A;
+}
 .select-readings{
     gap: 20px;
     display: flex;
     align-items: baseline;
-
     margin-bottom: 32px;
+}
+
+
+.non-mobile{
+    display: none;
 }
 
 /* tablet media query */
@@ -344,6 +360,14 @@ footer{
    /* footer styling */
    footer{
         margin-top: 160px;
+    }
+
+    .non-mobile{
+        display: block;
+    }
+
+    .mobile-only{
+        display: none;
     }
 
 }
