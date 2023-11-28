@@ -70,6 +70,23 @@ h1{
     margin-bottom: 156px;
     max-width: 100vw;
 }
+
+.gradient-text:hover{
+    background: linear-gradient(to right, #E3EB85,#6AB6F1,#FFA6C5);
+    background-size: 300% 300%;
+    animation: gradient 3s ease-in-out infinite;
+    background-clip: text;
+    -webkit-background-clip:text;
+    transition: all 0.5s ease;
+    color:rgba(0,0,0,0);
+  }
+
+@keyframes gradient { 
+    0%{background-position:left}
+    50%{background-position:right}
+    100%{background-position:left}
+}
+
 h2{
     font-family: Space Mono;
     color: var(--colour-1);
@@ -108,6 +125,7 @@ h5{
 }
 h5:hover{
     font-weight: 700;
+    transition: all 0.5s ease;
 }
 h6{
     font-family: Space Grotesk;
@@ -178,6 +196,7 @@ li{
 }
 a:hover{
     font-weight: 700;
+    transition: all 0.5s ease;
 }
 /* footer styling */
 footer{
@@ -225,6 +244,7 @@ footer{
 .button:hover{
     background-color: var(--colour-2);
     color: var(--colour-1);
+    transition: all 0.5s ease;
 }
 
 /* Selected reading section styling */
@@ -245,12 +265,15 @@ footer{
 }
 .line-1:hover{
     background-color: #B0B947;
+    transition: all 0.5s ease;
 }
 .line-2:hover{
     background-color: #1E7EC8;
+    transition: all 0.5s ease;
 }
 .line-3:hover{
     background-color: #D9487A;
+    transition: all 0.5s ease;
 }
 .select-readings{
     gap: 20px;
@@ -276,6 +299,7 @@ footer{
 }
 .divide-line-1:hover{
     background-color: #B0B947;
+    transition: all 0.5s ease;
 }
 .divide-line-2{
     width: 73px;
@@ -285,6 +309,7 @@ footer{
 }
 .divide-line-2:hover{
     background-color: #1E7EC8;
+    transition: all 0.5s ease;
 }
 .divide-line-3{
     width: 73px;
@@ -294,6 +319,7 @@ footer{
 }
 .divide-line-3:hover{
     background-color: #D9487A;
+    transition: all 0.5s ease;
 }
 
 .non-mobile{
