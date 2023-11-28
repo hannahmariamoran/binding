@@ -470,4 +470,9 @@ footer{
         margin-top: 300px;
     }
 
+    nav{
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
 }
