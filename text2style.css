@@ -116,7 +116,7 @@ h6{
 blockquote{
     font-family: Space Mono;
     color: var(--text-2);
-    font-weight: 700;
+    font-weight: 600;
     font-size: var(--blockquote);
     line-height: var(--blockquote-line-height);
     margin: 0px;
@@ -250,8 +250,8 @@ footer{
 .quote-styling{
     display: flex;
     gap: 2px;
-    margin-bottom: 40px;
-    margin-top: 40px;
+    margin-bottom: 64px;
+    margin-top: 64px;
 }
 
 .non-mobile{
