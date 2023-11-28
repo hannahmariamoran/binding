@@ -107,6 +107,7 @@ h5{
 }
 h5:hover{
     font-weight: 700;
+    transition: all 0.5s ease;
 }
 h6{
     font-family: Space Grotesk;
@@ -177,6 +178,7 @@ li{
 }
 a:hover{
     font-weight: 700;
+    transition: all 0.5s ease;
 }
 /* footer styling */
 footer{
@@ -225,9 +227,23 @@ footer{
 .button:hover{
     background-color: var(--text-3);
     color: var(--colour-1);
+    transition: all 0.5s ease;
 }
 
 /* next button styling */
+.next-button{
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 12px;
+    text-align: center;
+    width: 310px;
+    background-color: var(--colour-2);
+}
+.next-button:hover{
+    background-color: var(--text-1);
+    color: var(--colour-1);
+    transition: all 0.5s ease;
+}
 .next-button-styling{
     display: flex;
     flex-direction: column;
