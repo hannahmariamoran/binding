@@ -119,8 +119,8 @@ h6{
 }
 blockquote{
     font-family: Space Mono;
-    color: var(--colour-2);
-    font-weight: 400;
+    color: var(--text-1);
+    font-weight: 600;
     font-size: var(--blockquote);
     line-height: var(--blockquote-line-height);
     margin: 0px;
@@ -258,7 +258,14 @@ footer{
     align-items: baseline;
     margin-bottom: 32px;
 }
-
+/* Quote styling */
+.quote-styling{
+    display: flex;
+    gap: 2px;
+    margin-bottom: 64px;
+    margin-top: 64px;
+    display: none;
+}
 
 .non-mobile{
     display: none;
@@ -370,6 +377,13 @@ footer{
         display: none;
     }
 
+    /* Quote styling */
+    .quote-styling{
+        display: flex;
+        gap: 2px;
+        margin-bottom: 64px;
+        margin-top: 64px;
+    }
 }
 
 /* desktop media query */
@@ -441,8 +455,9 @@ footer{
         margin: 0px;
     }
     blockquote{
-        margin: 0px;
-        max-width: 50vw;
+        margin-top: 48px;
+        margin-bottom: 48px;
+        max-width: 35vw;
     }
     p{
         margin: 0px;
@@ -473,6 +488,10 @@ footer{
     nav{
         padding-top: 16px;
         padding-bottom: 16px;
+    }
+
+    .quote-styling{
+        margin-left: 44vw;
     }
 
 }
