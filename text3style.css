@@ -105,6 +105,9 @@ h5{
     line-height: var(--h5-line-height);
     margin: 0px;
 }
+h5:hover{
+    font-weight: 700;
+}
 h6{
     font-family: Space Grotesk;
     color: var(--colour-1);
