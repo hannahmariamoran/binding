@@ -30,7 +30,7 @@ main{
 :root {
     --colour-1:#1D1D1D;
     --colour-2:#FAFAFA;
-    --text-1: #E3EB85;
+    --text-1: #b5eb85;
     --text-2: #6AB6F1;
     --text-3: #FFA6C5;
 }
@@ -72,7 +72,7 @@ h1{
 }
 
 .gradient-text:hover{
-    background: linear-gradient(to right, #E3EB85,#6AB6F1,#FFA6C5);
+    background: linear-gradient(-60deg, #b5eb85,#6AB6F1,#FFA6C5);
     background-size: 300% 300%;
     animation: gradient 3s ease-in-out infinite;
     background-clip: text;

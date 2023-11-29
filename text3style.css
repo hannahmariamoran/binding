@@ -5,9 +5,24 @@ html{
 }
 
 /* layout styling */
+/* gradient background */
 body{
     margin: 0px;
-    background-color: var(--text-3);
+    background: linear-gradient(-60deg, #FAFAFA, #FFA6C5, #f16f9d, #ed5a8d);
+	background-size: 300% 300%;
+	animation: gradient 5s ease-in-out infinite;
+	height: 100vh;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 header{
     margin: 20px;
@@ -31,7 +46,7 @@ main{
 :root {
     --colour-1:#1D1D1D;
     --colour-2:#FAFAFA;
-    --text-1: #E3EB85;
+    --text-1: #b5eb85;
     --text-2: #6AB6F1;
     --text-3: #FFA6C5;
 }
@@ -120,7 +135,7 @@ h6{
 blockquote{
     font-family: Space Mono;
     color: var(--text-3);
-    font-weight: 600;
+    font-weight: 400;
     font-size: var(--blockquote);
     line-height: var(--blockquote-line-height);
     margin: 0px;
