@@ -225,6 +225,23 @@ footer{
     transition: all 0.5s ease;
 }
 
+/* Title Hover */
+.gradient-text:hover{
+    background: linear-gradient(to right, #E3EB85,#6AB6F1,#FFA6C5);
+    background-size: 300% 300%;
+    animation: gradient 3s ease-in-out infinite;
+    background-clip: text;
+    -webkit-background-clip:text;
+    transition: all 0.5s ease;
+    color:rgba(0,0,0,0);
+  }
+
+@keyframes gradient { 
+    0%{background-position:left}
+    50%{background-position:right}
+    100%{background-position:left}
+}
+
 /* Selected reading section styling */
 .line-1 {
     width: 73px;
